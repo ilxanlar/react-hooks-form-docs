@@ -1,0 +1,27 @@
+{
+  "docs": {
+    "Getting Started": [
+      "getting-started/overview",
+      "getting-started/usage"
+    ],
+    "Guides": [
+      "guides/organize-fields",
+      "guides/client-side-validation",
+      "guides/server-side-validation",
+      "guides/input-component",
+      "guides/form-submission",
+      "guides/using-hooks"
+    ],
+    "Components": [
+      "components/Form",
+      "components/FormField"
+    ],
+    "Hooks": [
+      "hooks/useFormFieldValue",
+      "hooks/useFormFieldMeta",
+      "hooks/useFormValues",
+      "hooks/useFormMeta",
+      "hooks/useForm"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+/* your custom css */
+
+pre code {
+  font-family: "Andale Mono" !important;
+  line-height: 1.8 !important;
+}
+
+.button {
+  text-transform: none !important;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.homeContainer {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  /*height: calc(100vh - 100px);*/
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.homeContainer .splashImage {
+  margin-bottom: 50px;
+  max-width: 100%;
+}
+
+.homeContainer .projectTitle {
+  color: #fff;
+}
+
+.homeContainer .buttonWrapper .button {
+  border-color: #fff;
+  color: #fff;
+}

@@ -114,7 +114,7 @@ class Index extends React.Component {
             title: 'Easy to use',
           },
           {
-            content: 'Hooks are the power of React Hooks Form, makes your code more readable an easy to understand.',
+            content: 'Hooks are the power of React Hooks Form, makes your code more readable and easy to understand.',
             image: `${baseUrl}img/react-hooks.png`,
             imageAlign: 'top',
             title: 'Hooks, of course!',

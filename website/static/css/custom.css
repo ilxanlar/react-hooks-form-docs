@@ -1,7 +1,8 @@
 /* your custom css */
 
-pre code {
-  font-family: "Andale Mono" !important;
+code,
+pre {
+  font-family: "Andale Mono", SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace !important;
   line-height: 1.8 !important;
 }
 
@@ -30,13 +31,13 @@ pre code {
   display: flex;
   /*height: calc(100vh - 100px);*/
   justify-content: center;
-  padding-bottom: 100px;
-  padding-top: 100px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .homeContainer .splashImage {
   margin-bottom: 50px;
-  max-width: 100%;
+  max-width: 160px;
 }
 
 .homeContainer .projectTitle {

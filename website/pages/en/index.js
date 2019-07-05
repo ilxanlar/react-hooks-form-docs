@@ -120,7 +120,7 @@ class Index extends React.Component {
             title: 'Hooks, of course!',
           },
           {
-            content: 'You don\'t need to worry about the bundle size. React Hooks Form is ~14KB gzipped!',
+            content: 'You don\'t need to worry about the bundle size. React Hooks Form is ~11KB minified and gzipped!',
             image: `${baseUrl}img/light.png`,
             imageAlign: 'top',
             title: 'Lightweight',

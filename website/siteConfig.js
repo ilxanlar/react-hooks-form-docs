@@ -38,12 +38,19 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'getting-started/overview', label: 'Getting Started'},
     {doc: 'guides/organize-fields', label: 'Guides'},
     {doc: 'components/Form', label: 'Components'},
     {doc: 'hooks/useFormFieldValue', label: 'Hooks'},
-    {href: 'https://github.com/ilxanlar/react-hooks-form', label: 'Github'}
+    {href: 'https://github.com/ilxanlar/react-hooks-form', label: 'Github'},
+    {search: true}
   ],
+
+  algolia: {
+    apiKey: '86ff039b1381b54062423e24971ff268',
+    appId: '1ZVY17J80N',
+    indexName: 'react_hooks_form_production',
+    algoliaOptions: {} // Optional, if provided by Algolia
+  },
 
   // If you have users set above, you add it here:
   // users,

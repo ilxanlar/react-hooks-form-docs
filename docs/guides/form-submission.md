@@ -7,7 +7,7 @@ As you're aware by now, to handle form submission, you provide `Form` component 
 
 ```jsx harmony
 import React from 'react'
-import { Form } from 'reactt-hooks-form'
+import { Form } from 'react-hooks-form'
 
 async function handleSubmit(values) {
   const response = await _myApiRequest(values)
@@ -52,7 +52,7 @@ You want to disable the submit button or show a loading indicator while form is 
 
 ```jsx harmony
 import React from 'react'
-import { useFormMeta } from 'reactt-hooks-form'
+import { useFormMeta } from 'react-hooks-form'
 
 function SubmitButton() {
   const { submitting } = useFormMeta()
@@ -73,7 +73,7 @@ So far, we've only used HTML form `onSubmit` event to trigger form submission. I
 
 ```jsx harmony
 import React from 'react'
-import { useForm, useFormMeta } from 'reactt-hooks-form'
+import { useForm, useFormMeta } from 'react-hooks-form'
 
 function RemoteSubmitButton() {
   const form = useForm()

@@ -101,7 +101,7 @@ There are some props other than `onChange` and `value` that you can use in custo
 
 | Prop | Description | Type |
 | --- | --- | --- |
-| onChange | A function to when the field value is changed. You must pass field's new value to the function. | Function |
+| onChange | A function to call when the field value is changed. You must pass field's new value to the function. | Function |
 | onFocus | A function to call when the input is focused. | Function |
 | onBlur | A function to call when the input is blurred. | Function |
 | value | The value of the field | Any |
